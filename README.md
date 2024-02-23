@@ -14,7 +14,8 @@ Run the following command from the root folder of the cloned project to install 
 
 `npm install`
 
-## Verify Setup
+## Verify Setupcurl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 
 In order to verify that everything is setup correctly, run the following command, which should show you the failing tests. This is good! We'll be fixing these tests once we jump into the build step.
 
